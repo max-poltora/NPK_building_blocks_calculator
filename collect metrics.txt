@@ -1,0 +1,10 @@
+rsconnect::showMetrics(
+	metricSeries=c("container_status"), 
+	metricNames=c("connect_count"),
+	appName=c("calculator_v19032020")
+)
+
+df <- rsconnect::showMetrics(metricSeries=c("docker_container_cpu"),
+                             metricNames=c("usage_in_usermode"),
+                             appName=c("calculator_v19032020")
+							)
